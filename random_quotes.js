@@ -157,15 +157,18 @@ Einstein: [
 	randomQuote: function() {
 		var quotes = this.quoteArray();
 		var index = this.randomIndex(quotes);
-		return quotes[index].split(" ~ ");
+		//return quotes[index].split(" ~ ");
+		return quotes[index];
+
 	},
 
 	// Override dom generator.
 	getDom: function() {
 		var quoteText = this.randomQuote();
+		var qMsg = quoteText;
 
-		var qMsg = quoteText[0];
-		var qAuthor = quoteText[1];
+// 		var qMsg = quoteText[0];
+// 		var qAuthor = quoteText[1];
 
 		var wrapper = document.createElement("div");
 
@@ -173,16 +176,16 @@ Einstein: [
 		quote.className = "bright medium light";
 		quote.style.textAlign = 'center';
 		quote.style.margin = '0 auto';
-		quote.style.maxWidth = '50%';
+// 		quote.style.maxWidth = '50%';
 		quote.innerHTML = qMsg;
 
 		wrapper.appendChild(quote);
 
-		var author = document.createElement("div");
-		author.className = "light small dimmed";
-		author.innerHTML = "~ " + qAuthor;
-
-		wrapper.appendChild(author);
+// 		var author = document.createElement("div");
+// 		author.className = "light small dimmed";
+// 		author.innerHTML = "~ " + qAuthor;
+// 
+// 		wrapper.appendChild(author);
 
 		return wrapper;
 	}
