@@ -20,78 +20,58 @@ Module.register("random_quotes",{
 		fadeSpeed: 4,			// How fast (in SECONDS) to fade out and back in when changing quotes
 		category: 'random',		// Category to use
 		quotes: {
-Aristotle: [
+			Aristotle: [
+				'"The greater danger for most of us is not that our aim is high and we miss it, but it is low and we hit it." - Aristotle,',
+			],
+			Aurelius: [
+     			'"Ask: What is so unbearable about this situation? Why can\'t you endure it? You will be embarrassed to answer." ~ Marcus Aurelius',
+				'"You don\'t have to turn this into something. It doesn\'t have to upset you." ~ Marcus Aurelius',
+				'"Be tolerant with others and strict with yourself." ~ Marcus Aurelius',
+     			'"The best revenge is not to be like your enemy." ~ Marcus Aurelius',
+    			'"Never Let the future disturb you. You will meet it, if you have to, with the same weapons of reason which today arm you against the present." ~ Marcus Aurelius',
+     			'"Waste no more time arguing what a good man should be. Be One.", ~ Marcus Aurelius',
+     			'"Your task is to stand straight; not to be held straight." ~ Marcus Aurelius',
+          		'"First tell yourself what kind of person you want to be, then do what you have to do." - Marcus Aurelius',
+				'"Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth." - Marcus Aurelius',
+				'"In your actions, don\'t procrastinate. In your conversations, don\'t confuse. In your thoughts don\'t be passive or aggressive." - Marcus Aurelius',
+  				'"Much more harmful are the consequences of anger and grief than the circumstances that aroused them in us!" - Marcus Aurelius',
+			],
 
+			Epictetus: [
+				'"First say to yourself what you would be; and then do what you have to do." ~ Epictetus',
+				'"We have two ears and one mouth so that we can listen twice as much as we speak."  ~ Epictetus',
+			],
 
-'"The greater danger for most of us is not that our aim is high and we miss it, but it is low and we hit it." - Aristotle,',
-
-],
-Aurelius: [
-     '"Ask: What is so unbearable about this situation? Why can\'t you endure it? You will be embarrassed to answer." ~ Marcus Aurelius',
-     '"You don\'t have to turn this into something. It doesn\'t have to upset you." ~ Marcus Aurelius',
-     '"Be tolerant with others and strict with yourself." ~ Marcus Aurelius',
-     '"The best revenge is not to be like your enemy." ~ Marcus Aurelius',
-    '"Never Let the future disturb you. You will meet it, if you have to, with the same weapons of reason which today arm you against the present." ~ Marcus Aurelius',
-     '"Waste no more time arguing what a good man should be. Be One.", ~ Marcus Aurelius',
-     '"Your task is to stand straight; not to be held straight." ~ Marcus Aurelius',
-          '"First tell yourself what kind of perosn you want to be, then do what you have to do." - Marcus Aurelius',
-
-'"Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth." - Marcus Aurelius',
-'"In your actions, don\'t procrastinate. In your conversations, don\'t confuse. In your thoughts don\'t be passive or aggressive." - Marcus Aurelius',
-
-  '"Much more harmful are the consequences of anger and grief than the circumstances that aroused them in us!" - Marcus Aurelius',
-
-
-
-
-
-
-
-],
-
-Epictetus: [
-    '"First say to yourself what you would be; and then do what you have to do." ~ Epictetus',
-    '"We have two ears and one mouth so that we can listen twice as much as we speak."  ~ Epictetus',
-
-
-
-],
-
-Seneca: [
-    '"We mortals also are lighted and extinguished; the period of suffering comes in between, but on either side there is a deep peace." ~ Seneca',
-    '"Everyone hurries his life on and suffers from a yearning for the future and a weariness of the present. But he who bestows all of his time on his own needs, who plans out every day as if it were his last, neither longs for nor fears the morrow." ~ Seneca',
-    '"No evil propensity of the human heart is so powerful that it may not be subdued by discipline." ~ Seneca',
-    '"You act like mortals in all that you fear, and like immortals in all that you desire." ~ Seneca',
-    '"Life is very short and anxious for those who forget the past, neglect the present, and fear the future." ~ Seneca',
-    '"The man who has anticipated the coming of troubles takes away their power when they arrive." ~ Seneca',
-    '"He is most powerful who has power over himself." ~ Seneca',
-    '"These two things must be cut away: fear of the future, and the memory of past sufferings. The latter no longer concerns me, and the future does not concern me yet." ~ Seneca',
-     '"Eyes will not see when the heart wishes them to be blind." ~ Seneca',
-     '"A gem cannot be polished without friction, nor a man without trials." ~ Seneca',
-     '"Fate leads the willing, and drags along the reluctant.", ~ Seneca',
-      '"Only time can heal what reason cannot.", ~ Seneca',
-       '"He suffers more than necessary, who suffers before it is necessary." ~ Seneca',
-       '"What need is there to weep over parts of life? The whole of it calls for tears." ~ Seneca',
-       '"It is not the man who has too little, but the man who craves more, that is poor." ~ Seneca',
-          '"Difficulties strengthen the mind, as labor does the body." ~ Seneca',
-          '"Luck is what happens when preparation meets opportunity.", ~ Seneca',
-           '"Sometimes even to live is an act of courage." ― Seneca',
-             '"Silence is the lesson learned from the many sufferings of life. " - Seneca',
-
-
-
-],
-Oursler: [
-    '"Many of us crucify ourselves between two thieves - regret for the past and fear of the future." ~ Fulton Oursler',
-],
-Einstein: [
-    '"Weakness of attitude becomes weakness of character." ~ Albert Einstein',
-    '"In the middle of difficulty lies opportunity." ~ Albert Einstein',
-    '"A clever person solves a problem. A wise person avoids it." ~ Albert Einstein',
-    '"Once we accept our limits, we go beyond them." ~ Albert Einstein',
-
-
-      ]
+			Seneca: [
+				'"We mortals also are lighted and extinguished; the period of suffering comes in between, but on either side there is a deep peace." ~ Seneca',
+				'"Everyone hurries his life on and suffers from a yearning for the future and a weariness of the present. But he who bestows all of his time on his own needs, who plans out every day as if it were his last, neither longs for nor fears the morrow." ~ Seneca',
+				'"No evil propensity of the human heart is so powerful that it may not be subdued by discipline." ~ Seneca',
+				'"You act like mortals in all that you fear, and like immortals in all that you desire." ~ Seneca',
+				'"Life is very short and anxious for those who forget the past, neglect the present, and fear the future." ~ Seneca',
+				'"The man who has anticipated the coming of troubles takes away their power when they arrive." ~ Seneca',
+				'"He is most powerful who has power over himself." ~ Seneca',
+				'"These two things must be cut away: fear of the future, and the memory of past sufferings. The latter no longer concerns me, and the future does not concern me yet." ~ Seneca',
+				'"Eyes will not see when the heart wishes them to be blind." ~ Seneca',
+				'"A gem cannot be polished without friction, nor a man without trials." ~ Seneca',
+				'"Fate leads the willing, and drags along the reluctant.", ~ Seneca',
+				'"Only time can heal what reason cannot.", ~ Seneca',
+				'"He suffers more than necessary, who suffers before it is necessary." ~ Seneca',
+				'"What need is there to weep over parts of life? The whole of it calls for tears." ~ Seneca',
+				'"It is not the man who has too little, but the man who craves more, that is poor." ~ Seneca',
+				'"Difficulties strengthen the mind, as labor does the body." ~ Seneca',
+				'"Luck is what happens when preparation meets opportunity.", ~ Seneca',
+				'"Sometimes even to live is an act of courage." ― Seneca',
+				'"Silence is the lesson learned from the many sufferings of life. " - Seneca',
+			],
+			Oursler: [
+				'"Many of us crucify ourselves between two thieves - regret for the past and fear of the future." ~ Fulton Oursler',
+			],
+			Einstein: [
+				'"Weakness of attitude becomes weakness of character." ~ Albert Einstein',
+				'"In the middle of difficulty lies opportunity." ~ Albert Einstein',
+				'"A clever person solves a problem. A wise person avoids it." ~ Albert Einstein',
+				'"Once we accept our limits, we go beyond them." ~ Albert Einstein',
+			]
 		},
 	},
 
