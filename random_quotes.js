@@ -61,7 +61,7 @@ Module.register("random_quotes",{
 				'"Difficulties strengthen the mind, as labor does the body." ~ Seneca',
 				'"Luck is what happens when preparation meets opportunity.", ~ Seneca',
 				'"Sometimes even to live is an act of courage." ― Seneca',
-				'"Silence is the lesson learned from the many sufferings of life. " - Seneca',
+				'"Silence is a lesson learned from the many sufferings of life. " - Seneca',
 			],
 			Oursler: [
 				'"Many of us crucify ourselves between two thieves - regret for the past and fear of the future." ~ Fulton Oursler',
