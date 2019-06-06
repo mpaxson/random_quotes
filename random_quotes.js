@@ -20,7 +20,11 @@ Module.register("random_quotes",{
 		fadeSpeed: 4,			// How fast (in SECONDS) to fade out and back in when changing quotes
 		category: 'random',		// Category to use
 		quotes: {
-			Aristotle: [
+
+		         Other: [ 
+'"You should be quick to say what you wish to say or hear. Some words ripen with age, but some also lose their color."'
+],
+                         Aristotle: [
 				'"The greater danger for most of us is not that our aim is high and we miss it, but it is low and we hit it." - Aristotle,',
 			],
 			Aurelius: [
