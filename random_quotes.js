@@ -24,7 +24,13 @@ Module.register("random_quotes", {
       Other: [
         '"You should be quick to say what you wish to say or hear. Some words ripen with age, but some also lose their color."',
         '"Everything we experience is a tool for clearing one\'s path."',
+				'"This is the act of childish men who assume I can be embarrassed by the truth. As I fear not a child with a weapon he can not lift, I will never fear the mind of a man who does not think." - Stormlight Archive, Book 2',
+				'"Intellectualism fuels the train to mankind\'s future. But the tracks the train runs on are forged from practicality."',
+				'"Wolf has eyes for prey, Cow has eyes for hay, One of them\'s a killer, The other his buffet"',
       ],
+			'Mark Twain': [
+				'"Worrying is like paying a debt you don\'t owe" - Mark Twain',
+			],
       Aristotle: [
         '"The greater danger for most of us is not that our aim is high and we miss it, but it is low and we hit it." - Aristotle,',
       ],
