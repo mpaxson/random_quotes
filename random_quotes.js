@@ -16,21 +16,42 @@ Module.register("random_quotes", {
 
   // Module config defaults.
   defaults: {
-    updateInterval: 300, // Value is in SECONDS
+    updateInterval: 60, // Value is in SECONDS
     fadeSpeed: 4, // How fast (in SECONDS) to fade out and back in when changing quotes
     category: 'random', // Category to use
     quotes: {
+      "Brandon Sanderson": [
+        '"It is not only the steps forward we must accept, it is the stumbles, the trials, the knowledge that we will fail...' \
+          'But if we stop, if we accept the person we are when we fall, the journey ends. That failure becomes our destination...' \
+          'I have found through painful experience, the most important step a man can take is always the next one."  Stormlight Archive book 3',
+        '"The most important words a man can say are: \'I will do better. \' " Stormlight Archive book 3',
+        'Ten spears go to battle and nine shatter. Did the war forge the one that remained? ... All the war did was identify the spear that would not break.” Stormlight Archive book 3',
+        '"The question is not whether you will love, hurt, dream, or die. It is what you will love, why you will hurt, when you will dream, and how you will die. This is your choice. You cannot pick the destination, only the path." - Stormlight Archive book 3',
+        '"Sometimes a hypocrite is just a man in the process of changing." - Stormlight Archive book 3',
+        '"This is the act of childish men who assume I can be embarrassed by the truth.' \
+          ' As I fear not a child with a weapon he can not lift, ' \
+          'I will never fear the mind of a man who does not think." - Stormlight Archive, Book 2',
+      ],
+
+      "Ibern Ball": [
+        '"Most of us can read the writing on the wall; we just assume it\'s addressed to someone else." - Ivern Ball',
+      ],
+
+      Voltaire: [
+        '"Doubt is not a pleasant condition, but certainty is absurd." - Voltaire',
+      ],
 
       Other: [
-        '"You should be quick to say what you wish to say or hear. Some words ripen with age, but some also lose their color."',
+        '"You should be quick to say what you wish to say or hear. Some words ripen with age, but some also lose their color." - Magus Bride',
         '"Everything we experience is a tool for clearing one\'s path."',
-				'"This is the act of childish men who assume I can be embarrassed by the truth. As I fear not a child with a weapon he can not lift, I will never fear the mind of a man who does not think." - Stormlight Archive, Book 2',
-				'"Intellectualism fuels the train to mankind\'s future. But the tracks the train runs on are forged from practicality."',
-				'"Wolf has eyes for prey, Cow has eyes for hay, One of them\'s a killer, The other his buffet"',
+        '"Intellectualism fuels the train to mankind\'s future. But the tracks the train runs on are forged from practicality." - Outer Worlds',
+        '"Wolf has eyes for prey, Cow has eyes for hay, One of them\'s a killer, The other his buffet"',
+
       ],
-			'Mark Twain': [
-				'"Worrying is like paying a debt you don\'t owe" - Mark Twain',
-			],
+
+      'Mark Twain': [
+        '"Worrying is like paying a debt you don\'t owe" - Mark Twain',
+      ],
       Aristotle: [
         '"The greater danger for most of us is not that our aim is high and we miss it, but it is low and we hit it." - Aristotle,',
       ],
