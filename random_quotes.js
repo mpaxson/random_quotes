@@ -103,7 +103,11 @@ Module.register("random_quotes", {
         '"In the middle of difficulty lies opportunity." ~ Albert Einstein',
         '"A clever person solves a problem. A wise person avoids it." ~ Albert Einstein',
         '"Once we accept our limits, we go beyond them." ~ Albert Einstein',
-      ]
+      ],
+      "Harriet Beecher Stowe": [
+        '"The bitterest tears shed over graves are for words left unsaid and deeds left undone." - Harriet Beecher Stowe',
+
+      ],
     },
   },
 
