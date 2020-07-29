@@ -21,16 +21,16 @@ Module.register("random_quotes", {
     category: 'random', // Category to use
     quotes: {
       "Brandon Sanderson": [
-        '"It is not only the steps forward we must accept, it is the stumbles, the trials, the knowledge that we will fail...' \
-          'But if we stop, if we accept the person we are when we fall, the journey ends. That failure becomes our destination...' \
-          'I have found through painful experience, the most important step a man can take is always the next one."  Stormlight Archive book 3',
+        '"It is not only the steps forward we must accept, it is the stumbles, the trials, the knowledge that we will fail...\
+			But if we stop, if we accept the person we are when we fall, the journey ends. That failure becomes our destination... \
+		  	I have found through painful experience, the most important step a man can take is always the next one."  Stormlight Archive book 3',
         '"The most important words a man can say are: \'I will do better. \' " Stormlight Archive book 3',
         'Ten spears go to battle and nine shatter. Did the war forge the one that remained? ... All the war did was identify the spear that would not break.” Stormlight Archive book 3',
         '"The question is not whether you will love, hurt, dream, or die. It is what you will love, why you will hurt, when you will dream, and how you will die. This is your choice. You cannot pick the destination, only the path." - Stormlight Archive book 3',
         '"Sometimes a hypocrite is just a man in the process of changing." - Stormlight Archive book 3',
-        '"This is the act of childish men who assume I can be embarrassed by the truth.' \
-          ' As I fear not a child with a weapon he can not lift, ' \
-          'I will never fear the mind of a man who does not think." - Stormlight Archive, Book 2',
+        '"This is the act of childish men who assume I can be embarrassed by the truth. \
+		  As I fear not a child with a weapon he can not lift, \
+		  I will never fear the mind of a man who does not think." - Stormlight Archive, Book 2',
       ],
 
       "Ibern Ball": [
